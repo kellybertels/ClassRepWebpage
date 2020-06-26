@@ -1,0 +1,135 @@
+nav, a{
+    display: block;	
+	font-size: 0.9375rem;
+	font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+	color: #295077;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 20px;
+	line-height: 45px;
+	float:right;
+
+}	
+		
+		
+		
+
+a.link{
+text-align:left;
+	
+}
+
+a:link{
+	text-decoration:none; 
+	
+	
+}
+
+a:hover {
+	
+	cursor: pointer;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+body{
+	background-color:white;
+	
+}
+
+
+.name{
+	font-family: Brock Script;
+	font-style:none;
+	color:navy;
+	text-align:center
+	
+}
+
+h1 {
+	font-family:  Bookman Old Style;
+	font-style:italic;
+	
+}
+article {
+    float: left;
+    padding: 100px;
+    width: 70%;
+    background-color: #f1f1f1;
+   
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pallete {
+	display:grid;
+	border: black 1px solid;
+	color: pink;
+	background-color: #ff0066;
+	padding: 1em;
+	text-align:center;
+	
+	margin-bottom:2px;
+	
+	
+}
+#b1{
+	background-color: black;
+	
+}
+
+
+table{
+	border: 1px solid black;
+	font-size:10px;
+}
+th{
+	
+	font-size:15px;
+	font-weight:bold;
+	padding:5px;
+	
+}
+.th2 {
+	color:#39a0ef;
+	background-color:transparent;
+}
+.trfree{
+background-color: #15c46c;
+	
+	
+}
+tr:hover
+
+{ 
+background-color: #15c46c;
+	
+	
+}
+
+/* tr:nth-child(even){background-color: #94c8ef;} */
+
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+img {
+	float:right;
+	
+}
+.oval {
+	
+	border-radius:45%;
+}
